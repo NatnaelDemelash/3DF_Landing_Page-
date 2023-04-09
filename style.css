@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Dosis:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alata", sans-serif;
+  /* height: 100vh; */
+  /* width: 100vw; */
+  background: #ecf0f1;
+}
+
+li,
+a,
+.branding {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+button {
+  padding: 1rem 3rem;
+  background: #283747;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  margin-top: 0.7rem;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 1rem auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper div {
+  display: flex;
+  align-items: center;
+}
+
+.nav__links li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin: 3rem 0;
+  font-family: "Dosis", sans-serif;
+}
+
+main h1 {
+  max-width: 650px;
+  font-size: 3.4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #283747;
+}
+
+main p {
+  max-width: 550px;
+  color: #707b7c;
+  font-size: 23px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.search {
+  background: #fff;
+  padding: 5px 30px;
+  border-radius: 3rem;
+}
+
+input[type="text"] {
+  width: 600px;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  color: #707b7c;
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+}
+
+.search i {
+  background: #283747;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.show-case {
+  margin-top: 2rem;
+  max-width: 850px;
+  text-align: center;
+}
+
+.show-case img {
+  width: 80%;
+  /* margin-left: 7rem; */
+}
