@@ -113,3 +113,40 @@ input[type="text"] {
   width: 80%;
   /* margin-left: 7rem; */
 }
+
+.about {
+  height: 100vh;
+  background: #aec0c18e;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.about h1 {
+  font-size: 18rem;
+  letter-spacing: 0.6rem;
+}
+
+.about .right {
+  background: #ecf0f1;
+  color: #283747;
+  padding: 1.5rem 3rem;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.about p {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  margin: 2rem;
+  /* padding-right: 5rem; */
+}
+
+.about .right h2 {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
